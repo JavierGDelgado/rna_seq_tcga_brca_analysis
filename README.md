@@ -7,6 +7,10 @@ Este repositorio contiene un análisis exploratorio de datos de expresión géni
 El análisis se ha dividido en notebooks independientes para mejorar la claridad y facilitar su uso y revisión:
 
 - `01_eda_RNA_SEQ_TCGA_BRCA.ipynb`: Exploración inicial de la matriz de expresión y metadatos clínicos. Incluye revisión de formatos, valores ausentes, estructuras de datos y filtrado de muestras compatibles.
+- `02_preprocesamiento_filtrado_TCGA_BRCA.ipynb`: Filtrado, selección de muestras relevantes y preparación de datos para análisis de expresión.
+- `03_analisis_diferencial_TCGA_BRCA.ipynb`: Identificación de genes diferencialmente expresados (DEGs) entre grupos.
+- `04_visualizacion_resultados_TCGA_BRCA.ipynb`: Representación gráfica y validación de resultados (heatmaps, boxplots, volcano plots).
+- `05_funcional_enrichment_GO_KEGG_TCGA_BRCA.ipynb`: Interpretación biológica mediante análisis de enriquecimiento funcional (GO, KEGG).
 
 ## Datos
 
